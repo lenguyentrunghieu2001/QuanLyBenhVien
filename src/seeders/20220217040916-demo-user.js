@@ -10,6 +10,13 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        firstName: "Le Nguyen",
+        lastName: "Trung",
+        email: "lenguyentrunghieu2001@gmail.com",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
   },
 

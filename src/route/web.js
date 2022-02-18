@@ -5,7 +5,7 @@ let router = express.Router();
 
 let initWebRouter = (app) => {
   router.get("/", homecontroller.getHomePage);
-  nrouter.get("/about", homecontroller.aboutme);
+  router.get("/about", homecontroller.aboutme);
   router.get("/HieuPST", (req, res) => {
     return res.send("Hello word with trung hieu (Hieu FST) Hieu FST");
   });
